@@ -1,0 +1,75 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@keyframes p-progress-spinner-color {
+  100%,
+  0% {
+      stroke: #d62d20;
+  }
+  40% {
+      stroke: #0057e7;
+  }
+  66% {
+      stroke: #008744;
+  }
+  80%,
+  90% {
+      stroke: #ffa700;
+  }
+}
+/* DataTableDemo.css */
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+  margin-left: auto;
+}
+.datatable-doc-demo .p-progressbar {
+  height: 0.5rem;
+  background-color: #d8dadc;
+}
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+  background-color: #607d8b;
+}
+.datatable-doc-demo .p-datepicker {
+  min-width: 25rem;
+}
+.datatable-doc-demo .p-datepicker td {
+  font-weight: 400;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+  padding: 1rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+  text-align: left;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+  text-transform: uppercase;
+}

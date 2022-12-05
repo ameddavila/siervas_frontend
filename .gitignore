@@ -1,0 +1,11 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# /.gitignore
+# next.js build output
+.next
+# Dependency directories
+node_modules/
+# entorno
+.env
+env_casa.txt
+env_oficina.txt
