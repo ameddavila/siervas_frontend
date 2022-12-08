@@ -115,9 +115,9 @@ const Layout = (props) => {
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <meta property="og:type" content="website"></meta>
                 <meta property="og:title" content="Hospital Santa Bárbara | Admin NextJS"></meta>
-                <meta property="og:url" content="https://www.primefaces.org/sakai-react"></meta>
+                {/* <meta property="og:url" content="https://www.primefaces.org/sakai-react"></meta> */}
                 <meta property="og:description" content="Pagina del Hospital Santa Bárbara Sucre-Bolivia" />
-                <meta property="og:image" content="https://www.primefaces.org/static/social/sakai-nextjs.png"></meta>
+                {/* <meta property="og:image" content="https://www.primefaces.org/static/social/sakai-nextjs.png"></meta> */}
                 <meta property="og:ttl" content="604800"></meta>
                 <link rel="icon" href={`${contextPath}/favicon.ico`} type="image/x-icon"></link>
             </Head>
