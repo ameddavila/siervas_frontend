@@ -20,6 +20,7 @@ const WidgetReporteIndividual = ({ props }) => {
     { field: "FECHA", header: "FECHA" },
     { field: "HORA", header: "HORA" },
     { field: "DIA", header: "DIA" },
+     { field: "PUERTA", header: "PUERTA" },
   ];
 
   useEffect(() => {
