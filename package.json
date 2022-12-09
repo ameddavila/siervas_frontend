@@ -23,6 +23,7 @@
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.38",
     "next": "12.3.1",
+    "pdfmake": "^0.2.6",
     "primeflex": "^3.2.1",
     "primeicons": "^6.0.1",
     "primereact": "^8.6.1",

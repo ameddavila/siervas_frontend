@@ -64,7 +64,7 @@ const WidgetReporteIndividual = ({ props }) => {
     //     const workbook = { Sheets: { 'data': worksheet }, SheetNames: ['data'] };
     //     const excelBuffer = xlsx.write(workbook, { bookType: 'xlsx', type: 'array' });
     //     saveAsExcelFile(excelBuffer, 'products');
-    // });
+    // });git 
   };
 
   const saveAsExcelFile = (buffer, fileName) => {
