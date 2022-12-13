@@ -50,7 +50,7 @@ const WidgetReporteIndividual = ({ datosReporte, funcionario }) => {
       "DIA",
     ]);
     Object.values(datos).forEach((value) => {
-      console.log(Object.values(value));
+      //console.log(Object.values(value));
       arr.push(Object.values(value));
     });
     let sliced = arr.map((arr) => [arr[0], arr[2], arr[4], arr[5], arr[6]]);
