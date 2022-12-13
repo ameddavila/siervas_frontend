@@ -21,7 +21,7 @@ const IndicadorSus = () => {
           }
         };
         listar();
-      },[x,y]);
+      },[]);
 
       const [multiAxisData] = useState({
         labels: x,
