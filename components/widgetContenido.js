@@ -1,16 +1,7 @@
 import React from "react";
 import { Card } from "primereact/card";
 const WidgetContenido = () => {
-  const footer = (
-    <img
-      alt="Card"
-      src="images/usercard.png"
-      onError={(e) =>
-        (e.target.src =
-          "https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png")
-      }
-    />
-  );
+  
 
   return (
     <div className="grid">
