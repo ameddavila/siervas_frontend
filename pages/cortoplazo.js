@@ -1,13 +1,13 @@
-import WidgetContenido from "../components/widgetContenido"
+import WidgetBuscador from "../components/widgetBuscador"
 import WidgetFichas from "../components/widgetFichas"
-export default function Home() {
+export default function CortoPlazo() {
   return (
     <div className="grid">
       <div className="col-12 xl:col-9">
-        <WidgetContenido/>
+        <WidgetBuscador></WidgetBuscador>
       </div>
       <div className="col-12 xl:col-3">
-        <WidgetFichas/>
+        <WidgetFichas></WidgetFichas>
       </div>
 
     </div>

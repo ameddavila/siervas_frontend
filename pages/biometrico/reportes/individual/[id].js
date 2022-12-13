@@ -20,6 +20,7 @@ export default function ReporteIndividual() {
   const [mesenabled, setMesenabled] = useState(false);
   const [anioenabled, setAnioenabled] = useState(false);
   const [datosReporte, setDatosReporte] = useState(null);
+  const [funcionario, setFuncionario] = useState({});
   const toastBR = useRef(null);
 
   const route = useRouter();
@@ -151,7 +152,6 @@ export default function ReporteIndividual() {
         fechafin: null,
         tipo: selectedReporte.key,
       };
-      console.log(personal);
     }
     if (selectedReporte.key === 2) {
       if (anioSelected.code === undefined) {
@@ -216,6 +216,7 @@ export default function ReporteIndividual() {
         return;
       }
       setDatosReporte(data);
+      setFuncionario(personal);
     } catch (error) {
       console.log(error);
     }
@@ -300,9 +301,7 @@ export default function ReporteIndividual() {
       </div>
       <div className="card">
         {datosReporte ? (
-          <WidgetReporteIndividual
-            props={datosReporte}
-          ></WidgetReporteIndividual>
+          <WidgetReporteIndividual  datosReporte={datosReporte} funcionario={funcionario}/>
         ) : null}
       </div>
     </div>
