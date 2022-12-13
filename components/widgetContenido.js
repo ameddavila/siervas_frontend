@@ -22,7 +22,7 @@ const WidgetContenido = () => {
               <br></br>
               <a
                 href="https://seguros.minsalud.gob.bo/Asegurados%20SSCP/frmAsegurados.php"
-                target="_blank"
+               
               >
                 Página Oficial de Asegurados
               </a>
