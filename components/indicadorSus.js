@@ -18,7 +18,7 @@ const IndicadorSus = () => {
             }
           } catch (error) {
             console.log(error);
-          }
+          }   
         };
         listar();
       },[]);
